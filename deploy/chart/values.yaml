@@ -14,6 +14,10 @@ operator_namespace: operators
 operator_namespace_psa: 
   enforceLevel: baseline
   enforceVersion: latest
+  auditLevel: restricted
+  auditVersion: latest
+  warnLevel: restricted
+  warnVersion: latest
 minKubeVersion: 1.11.0
 writeStatusName: '""'
 imagestream: false
